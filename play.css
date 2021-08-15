@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+.document{
+    background-image: url(mainBackgraund.jpg);
+    background-repeat: no-repeat;
+    height: 1080px;
+    width: 1920px;
+}
+.conteiner{
+    width: 1500px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.head{
+    text-align: center;
+  font-size: 100px;
+  font-family:'Adigiana_2';
+  color: chocolate;
+   margin-bottom: 50px;
+}
+
+.chooseChar{
+    display: flex;
+    width: 1500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.choose{
+    width: 600px;
+    border-radius: 20px;
+    border: 10px solid rgb(93, 113, 3);
+    background-color: rgb(158, 193, 5);
+    display: flex;
+    flex-direction: column;
+}
+.characteristic{
+    margin-left: 100px;
+    width: 700px;
+    border-radius: 20px;
+    border: 10px solid rgb(93, 113, 3);
+    background-color: rgb(158, 193, 5);
+}
+.hertxt{
+    text-align: center;
+    font-size: 80px;
+    font-family:'Adigiana_2';
+    color: chocolate;
+}
+#imageHero{
+    width: 234px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#nameHero{
+  
+    font-size: 80px;
+    font-family:'Adigiana_2';
+    color: chocolate;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.herochar{
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 50px;
+    font-size: 70px;
+    color: rgb(93, 113, 3);
+    font-family:'Adigiana_2';
+}
+
+    #heart{
+        position:absolute;
+        top:350px;
+    }
+    #mana{
+        position:absolute;
+        top:430px;
+    }
+ 
+
+
+.button{
+    width: 240px;
+    font-size: 70px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 6px solid rgb(93, 113, 3);
+    border-radius: 20px;
+    background-color: rgb(158, 193, 5);
+    margin-top: 60px;
+}
+.button a {
+    text-decoration: none;
+    color:chocolate;
+    font-family:'Adigiana_2';
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button:hover{
+    box-shadow:2px 2px 4px 2px chocolate;
+}
+#butBack{
+    position: absolute;
+    top: 0;
+}
+#herocharSP{
+    font-size: 60px;
+}
+
+
+@font-face {
+    font-family: 'Adigiana_2';
+    src: url("Adigiana_2.ttf");
+  }
+  

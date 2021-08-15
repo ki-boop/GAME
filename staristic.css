@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+.document{
+    background-image: url(mainBackgraund.jpg);
+    background-repeat: no-repeat;
+    height: 1080px;
+    width: 1920px;
+}
+.conteiner{
+    width: 500px;
+    height: 300px;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.menu{
+    border-radius: 20px;
+    height: 400px;
+}
+.head{
+  font-size: 100px;
+  font-family:'Adigiana_2';
+  color: chocolate;
+   margin-bottom: 50px;
+
+}
+#name{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   border: 6px solid rgb(93, 113, 3);
+    border-radius: 20px;
+    background-color: rgb(158, 193, 5);
+    font-size: 60px;
+    font-family:'Adigiana_2';
+    color: chocolate;
+}
+table{
+    width: 500px;
+     border: 6px solid rgb(93, 113, 3);
+     border-radius: 20px;
+     background-color: rgb(158, 193, 5);
+}
+th{
+    color: chocolate;
+    font-family:'Adigiana_2';
+    font-size: 20px;
+}
+td{
+    text-align: center;
+   
+    font-family:'Adigiana_2';
+}
+#butBack{
+    position: absolute;
+    top: 0;
+   left: 200px;
+}
+
+.button{
+    width: 240px;
+    font-size: 40px;
+    color: chocolate;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   border: 6px solid rgb(93, 113, 3);
+    border-radius: 20px;
+    background-color: rgb(158, 193, 5);
+    margin-top: 60px;
+    font-family:'Adigiana_2';
+}
+.button a {
+    text-decoration: none;
+    color:chocolate;
+    font-family:'Adigiana_2';
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button:hover{
+    box-shadow:2px 2px 4px 2px chocolate;
+}
+
+
+@font-face {
+    font-family: 'Adigiana_2';
+    src: url("Adigiana_2.ttf");
+  }
+  
