@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow: hidden;
+    background-color: rgb(158, 193, 5);
+    width: 1660px;
+}
+#document{
+    background-image: url(fon2.png);
+    border-left: 10px solid rgb(93, 113, 3);
+    border-right: 10px solid rgb(93, 113, 3);
+    border-radius: 20px;
+    height: 936px;
+    width: 1900px;
+}
+#heart {
+   position:absolute;
+   top: 30px;
+   left: 20px;
+}
+#HP{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 25px;
+    font-family:'Adigiana_2';
+    color: white;
+}
+#mana {
+    position:absolute;
+    top: 15px;
+    left: 120px;
+ }
+ #MP{
+     position: absolute;
+     top: 55px;
+     left: 145px;
+     font-size: 25px;
+     font-family:'Adigiana_2';
+     color: white;
+ }
+ #timer{
+     position:absolute;
+     top: 25px;
+     left: 950px;
+     font-size: 50px;
+     font-family:'Adigiana_2' ;
+     color: #fff;
+
+ }
+ #pause{
+     display: none;
+     width: 650px;
+     height: 250px;
+     font-family:'Adigiana_2';
+     font-size: 60px;
+     background-color: rgb(158, 193, 5);
+     position: absolute;
+     top: 200px;
+     left: 600px;
+     text-align: center;
+     border: 10px solid rgb(93, 113, 3);
+     border-radius: 20px;
+     color: chocolate;
+ }
+ #pauseHead {
+     font-size: 90px;
+ }
+ #GameOver {
+     display: none;
+     width: 650px;
+     height: 400px;
+     position: absolute;
+     top: 200px;
+     left: 600px;
+     border: 10px solid rgb(93, 113, 3);
+     border-radius: 20px;
+     color: chocolate;
+     background-color: rgb(158, 193, 5);
+     text-align: center;
+     font-family:'Adigiana_2';
+ }
+ .GOtxt{
+     margin-top: 40px;
+     font-size: 100px;
+ }
+ .button{
+     margin-top: 20px;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    text-align: center;
+    border: 7px solid rgb(93, 113, 3);
+    border-radius: 20px;
+    background-color: rgb(158, 193, 5);
+ }
+ .button a {
+    text-decoration: none;
+    color:chocolate;
+    font-family:'Adigiana_2';
+   
+ }
+ .button:hover{
+    box-shadow:2px 2px 4px 2px chocolate;
+}
+ #SC {
+     font-size: 60px;
+ }
+ #time{
+     font-size: 60px;
+ }
+ #scoregame {
+    position:absolute;
+    top: 25px;
+    left: 1650px;
+    font-size: 50px;
+    font-family:'Adigiana_2' ;
+    color: #fff;
+ }
+ #end{
+     width: 500px;
+     height: 200px;
+     margin-left: 50px;
+     
+     margin-top: -450px;
+     border: 10px solid rgb(93, 113, 3);
+     border-radius: 20px;
+     font-size: 89px;
+     color: chocolate;
+     background-color: rgb(158, 193, 5);
+     text-align: center;
+     font-family:'Adigiana_2';
+ }
+
+@font-face {
+    font-family: 'Adigiana_2';
+    src: url("Adigiana_2.ttf");
+  }
+ 

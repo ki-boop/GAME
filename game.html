@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+ <div id="document">
+  
+    <img  id="heart" src="heart.png">
+    
+        <div id="HP"></div>
+        <img  id="mana" src="mana.png">
+        <div id="MP"></div>
+        <div id='timer'></div>
+        <div id = 'scoregame'></div>
+        <div  id = 'pause'> 
+            <div id = 'pauseHead'>Пауза</div>
+            <div>Нажмите Esc, чтобы продолжить</div>
+        </div>
+        <div id = 'GameOver' >
+            <div class="GOtxt"> Игра закончена</div>
+            <div id= 'time'> Время: </div>
+            <div id = "SC">Ваш счет:</div>
+            
+            <div class="button"><a href="play.html">Назад</a> </div>
+        </div>
+        <canvas id="myCanvas" width="1920" height="2160">
+            
+        </canvas>
+    <div id = 'end'> Закончить игру</div>
+       
+        
+    </div>
+    
+
+ </div>
+    
+    
+
+
+
+
+    <script src = 'game.js'></script>
+</body>
+</html>

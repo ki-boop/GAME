@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+.document{
+    background-image: url(mainBackgraund.jpg);
+    background-repeat: no-repeat;
+    height: 1080px;
+    width: 1920px;
+}
+.conteiner{
+    width: 500px;
+    height: 300px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.head{
+  font-size: 100px;
+  font-family:'Adigiana_2';
+  color: chocolate;
+  margin-bottom: 50px;
+
+}
+
+
+#butBack{
+    position:absolute;
+    top: 0;
+    left: 200px;
+}
+
+.button{
+    width: 240px;
+    font-size: 40px;
+    color: chocolate;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   border: 6px solid rgb(93, 113, 3);
+    border-radius: 20px;
+    background-color: rgb(158, 193, 5);
+    margin-top: 60px;
+    font-family:'Adigiana_2';
+}
+.button a {
+    text-decoration: none;
+    color:chocolate;
+    font-family:'Adigiana_2';
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button:hover{
+    box-shadow:2px 2px 4px 2px chocolate;
+}
+.ed{
+    width: 500px;
+    height: 630px;
+    border: 6px solid rgb(93, 113, 3);
+    border-radius: 20px;
+    background-color: rgb(158, 193, 5);
+    font-family:'Adigiana_2';
+}
+.punk{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Adigiana_2';
+    color: chocolate
+}
+.txt{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Adigiana_2';
+    color: rgb(93, 113, 3);
+}
+
+
+@font-face {
+    font-family: 'Adigiana_2';
+    src: url("Adigiana_2.ttf");
+  }
+  
